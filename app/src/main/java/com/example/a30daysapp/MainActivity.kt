@@ -181,13 +181,7 @@ fun DayIcon(
     )
 }
 
-/**
- * Composable that displays a dog's name and age.
- *
- * @param dogName is the resource ID for the string of the dog's name
- * @param dogAge is the Int that represents the dog's age
- * @param modifier modifiers to set to this composable
- */
+
 @Composable
 fun DayInformation(
     @StringRes dayType: Int,
@@ -244,9 +238,6 @@ fun DayInfo(
     }
 }
 
-/**
- * Composable that displays what the UI of the app looks like in light theme in the design tab.
- */
 @Preview
 @Composable
 fun A30DaysPreview() {
